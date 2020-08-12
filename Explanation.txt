@@ -1,0 +1,57 @@
+A sequence of numbers is called a wiggle sequence if the differences between successive numbers strictly alternate between positive and negative. 
+The first difference (if one exists) may be either positive or negative. A sequence with fewer than two elements is trivially a wiggle sequence.
+Given an array, find whether the given array is wiggle sequence or not.
+return the length of the longest subsequence that is a wiggle sequence. A subsequence is obtained by deleting some number of elements (eventually, also zero) from the original 
+sequence, leaving the remaining elements in their original order.
+
+Input Description:
+First line contains, n the size of array in integer.(1<n<1000)
+Second line contains, n elements of array in integer.
+
+Output Description:
+Print the length of the longest subsequence that is a wiggle sequence
+
+Sample Input:
+6
+1 7 4 9 2 6
+
+Sample Output:
+6
+
+explanation:
+The difference betweeen each elements have negative and positive alternatievly. so the whole array is a wiggle sequence.
+
+Sample Input:
+5
+1 2 1 2 4 5
+
+Sample Output:
+4
+
+Sample Input:
+7
+23 22 24 34 33 44 45
+
+Sample Output:
+5
+
+Sample Input:
+12
+34 45 63 63 76 56 64 111 110 85 43 32
+
+Sample Output:
+5
+
+Sample Input:
+5
+200 3003 400 399 777
+
+Sample Output:
+4
+
+Sample Input:
+3
+89 91 92
+
+Sample Output:
+2
